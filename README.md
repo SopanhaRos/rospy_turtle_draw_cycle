@@ -1,16 +1,16 @@
 # Turtlebot_public_subscriber
-This project is getting started to learn how ros work, we use a turtle bot to draw circles.
+This project is starting to learn how ros work, we use a turtle bot to draw circles.
 
 # Requirement
-Ubuntu
-Install of ROS Noetic
-IDE Applications such as Vs Code, PyCharm, Sublime…
+-Ubuntu
+-Install ROS Noetic
+-IDE Applications such as Vs Code, PyCharm, Sublime…
 
 # Instruction
-# Step One
-Open IDE
-Create package python script
-Include this script into the file
+## Step One
+1. Open IDE
+2. Create a package Python script
+3. Include this script in the file
 
   import rospy
   from geometry_msgs.msg import Twist
@@ -42,18 +42,18 @@ Include this script into the file
     
     move_turtle(3.0, 2.5)
 
-Save the file in any specific directory
+4. Save the file in any specific directory
 
-# Step Two
-Initialize source
-Run command in terminal
+## Step Two
+-Initialize source
+-Run command in terminal
 
-# Step Three
-Open another terminal
-locate the specific directory
+## Step Three
+-Open another terminal
+-locate the specific directory
 
     cd specific folder
   
-run the Python file
+-run the Python file
 
     rosrun turtle_draw_circle.py
