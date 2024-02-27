@@ -3,7 +3,9 @@ This project is starting to learn how ros work, we use a turtle bot to draw circ
 
 # Requirement
 -Ubuntu
+
 -Install ROS Noetic
+
 -IDE Applications such as Vs Code, PyCharm, Sublime…
 
 # Instruction
